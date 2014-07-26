@@ -35,7 +35,7 @@ li a {
     color:black;
 }
 
-li:last-child {
+nav li:last-child {
     background:#4285F4;
     padding:5px 10px;
     colol:white;
@@ -57,7 +57,7 @@ li:last-child {
     cursor: pointer;
 }
 
-li:nth-child(4) a {
+nav li:nth-child(4) a {
     display: none;
 }
 
@@ -131,4 +131,32 @@ h4:before {
 h4{
 	cursor: pointer;
 }
+
+footer {
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	background:#f2f2f2;
+	border-top:1px solid #e4e4e4;
+	text-align: top;
+	font-size:10px;
+	line-height: 40px;
+	display: block;
+	height: 40px;
+
+}
+
+footer li {
+	display:inline-block;
+	line-height:20px;
+	padding:0px;
+	margin:0px;
+}
+
+
+
+
+
 
